@@ -1,5 +1,4 @@
 <?php
-//yo
 /**
  * @name AbstractController
  * 
