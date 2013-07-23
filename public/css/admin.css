@@ -1,0 +1,328 @@
+body {
+	background-color: #ffffff;
+	color: #111111;
+	margin: 0;
+	padding: 0;
+	text-align= center;
+}
+body img {
+	border: 0;
+}
+a {
+	color: #21759b;
+}
+h1 {
+	color: #000000;
+	font-size: 18px;
+	margin:0;
+}
+h2 {
+	color: #000000;
+	font-size: 14px;
+	margin:0;
+}
+div.section {
+	width: 1024px;
+	margin: auto;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+table {
+	width: 100%;
+	margin: 30px 0 0 0;
+}
+thead,
+tfoot {
+    background: url("http://at-plus.com.ua/images/admin_table_head.png") repeat-x scroll 0 0 transparent;
+    height: 30px;
+}
+#admin-promotion-submit,
+#admin-banner-submit {
+	height: auto;
+	width: auto;
+}
+.admin-promotion-type-block {
+	display: none;
+}
+/**************************************Header******************************/
+div#header {
+	height: 80px;
+}
+div#header div#admin-menu {
+	display: block;
+	float: right;
+	margin: 25px 40px 0 0;
+}
+div#header div#admin-menu a {
+	height: 35px;
+	line-height: 35px;
+	display: block;
+	float: right;
+	padding: 0 10px 0 10px;
+	margin: 0 0 0 40px;
+	color: #959ba0;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+div#header div#admin-menu a.active,
+div#header div#admin-menu a:hover {
+	background-color: #e5e5e5;
+	text-decoration: underline;
+}
+/**********************************end Header******************************/
+
+/**********************************Login***********************************/
+div#entrance {
+	width: 230px;
+	height: 315px;
+	margin: 110px auto 180px auto;
+	background: transparent url(http://at-plus.com.ua/images/admin_entrance.png) 0 0 no-repeat;
+	display: block;
+	padding: 1px;
+}
+div#entrance form{
+	width: 135px;
+	margin: 111px 90px 0 5px;
+	display: block;
+}
+div#entrance form input#login,
+div#entrance form input#pass {
+	width: 135px;
+	height: 30px;
+	color: #86959e;
+}
+div#entrance form input#login {
+	margin: 0;
+}
+div#entrance form input#pass {
+	margin: 10px 0 0 0;
+}
+div#entrance form input#remember {
+	margin: 12px 0 0 0;
+	float: left;
+}
+div#entrance form p {
+	margin: 9px 5px 0 5px;
+	float: left;
+	displzy: block;
+	width: 57px;
+	font-size: 11px;
+	color: #8faeba;
+}
+div#entrance form input#button {
+	margin: 10px 0 0 0;
+	float: left;
+	width: 48px;
+	height: 20px;
+	color: #0d2b3e;
+	font-size: 12px;
+	line-height: 20px;
+	border: 0;
+}
+/******************************end Login***********************************/
+
+/******************************Profile*************************************/
+.admin-block {
+    display: block;
+    margin: 30px 0 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+.list-wrapper {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.list-wrapper li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
+.mini-image {
+	margin: 0 20px 0 0;
+}
+.info-list p {
+    font-size: 14px;
+    line-height: 30px;
+    margin: 5px 0 5px 5px;
+    text-align: left;
+    width: 250px;
+}
+.info-list input {
+    float: right;
+    height: 20px;
+    width: 135px;
+}
+.info-list .id {
+    float: right;
+    height: 20px;
+    width: 135px;
+}
+#admin-profile-new-pass {
+	float: left;
+	width: 30px;
+	margin: 0 0 0 20px;
+}
+#admin-profile-submit {
+	width: auto;
+	height: auto;
+	float: none;
+	margin: 20px 0 0 185px;
+}
+#admin-div-profile-rep-pass {
+	display: none;
+}
+.red-star {
+	color: red;
+}
+/**************************end Profile*************************************/
+
+/**************************Company*****************************************/
+.big-link {
+    color: #959BA0;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 0 0 40px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+}
+.actions img {
+	width: 30px;
+	height: 30px;
+}
+/**********************end Company*****************************************/
+
+/**************************Company mail************************************/
+.mail-info p {
+	font-size: 14px;
+    line-height: 30px;
+    margin: 5px 0 5px 5px;
+    text-align: left;
+    width: 400px;
+}
+.mail-info input {
+	float: right;
+    height: 20px;
+    width: 350px;
+}
+.mail-info textarea {
+    height: 200px;
+    width: 400px;
+    font-size: 14px;
+    margin: 5px 0 5px 5px;
+}
+.mail-info textarea {
+    height: 200px;
+    width: 400px;
+    font-size: 14px;
+    margin: 5px 0 5px 5px;
+}
+.mail-info .big-link {
+	margin: 0 0 0 300px;
+}
+/**********************end Company mail************************************/
+
+/**************************Company types***********************************/
+#add-type {
+	margin: 0 0 0 900px;
+}
+.company-types input {
+	width: 300px;
+}
+.banner-image img {
+	max-width: 100px;
+}
+#banner-error,
+#promotion-error {
+	color: red;
+}
+/**********************end Company types***********************************/
+
+/**********************Banner edit*****************************************/
+.banner-info-list p {
+	font-size: 14px;
+    line-height: 30px;
+    margin: 5px 0 5px 5px;
+    text-align: left;
+    width: 400px;
+}
+.banner-info-list input {
+    float: right;
+    height: 20px;
+    width: 135px;
+}
+.banner-info-list select {
+    float: right;
+    height: 20px;
+    width: 135px;
+}
+.banner-info-list textarea {
+    font-size: 14px;
+   	line-height: 30px;
+   	margin: 5px 0 5px 5px;
+   	text-align: left;
+  	width: 630px;
+	height: 200px;
+}
+#add-promotion {
+	text-align: right;
+	margin-right: 48px;
+}
+#add-banner {
+	text-align: right;
+	margin-right: 8px;
+}
+/******************end Banner edit*****************************************/
+
+/*********************Content edit*****************************************/
+.content-info-list p {
+	font-size: 14px;
+    line-height: 30px;
+    margin: 5px 0 5px 5px;
+    text-align: left;
+    width: 630px;
+}
+.content-info-list input {
+    float: right;
+    height: 20px;
+    width: 555px;
+}
+.content-info-list textarea {
+	font-size: 14px;
+   	line-height: 30px;
+   	margin: 5px 0 5px 5px;
+   	text-align: left;
+  	width: 630px;
+	height: 400px;
+}
+#content-error {
+	display: none;
+	color: red;
+}
+/*****************end Content edit*****************************************/
+
+/*********************Brand edit*******************************************/
+#add-brand {
+	margin: 0 0 0 775px;
+}
+
+#brand-save {
+	margin: 0;
+	padding: 0;
+}
+
+#add-model {
+	margin: 0 0 0 900px;
+}
+/*****************end Brand edit*******************************************/
+

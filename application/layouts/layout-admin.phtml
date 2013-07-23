@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+		<?php echo $this->headTitle(); ?>
+		<?php echo $this->headMeta(); ?>
+		<?php echo $this->headLink(); ?>
+		<?php echo $this->headScript(); ?>		
+	</head>
+	<body>	
+	<a href="<?php echo URL . 'admin/exit'; ?>" style="position: absolute; right: 20px; top: 20px;">
+		Выйти
+	</a>
+	<div class="section">
+		<div id="header">
+			<div id="admin-menu">
+				<a class="" id="profile" href="<?php echo URL . 'admin/profile'; ?>">Мой профиль</a>
+				<a class="" id="app" href="<?php echo URL . 'admin/content'; ?>">Контент</a>
+				<a class="" id="comm" href="<?php echo URL . 'admin/promotion'; ?>">Реклама</a>
+				<a class="" id="comm" href="<?php echo URL . 'admin/company'; ?>">Компании</a>
+				<a class="" id="comm" href="<?php echo URL . 'admin/user'; ?>">Пользователи</a>
+				<a class="" id="comm" href="<?php echo URL . 'admin/brands'; ?>">Бренды</a>
+			</div>
+		</div>
+	</div>
+
+	<?php print_r($this->layout()->content); ?>
+	
+	<div class="section">	
+		<div id="footer">
+		</div>
+	</div>
+	</body>
+</html>
