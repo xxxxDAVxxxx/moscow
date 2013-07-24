@@ -1,3 +1,4 @@
+//
 function maxSizeForIE(jQSelect,maxWidth,maxHeight){
 //$('div.example').css('width', function(index) {
 //	  return index * 50;
@@ -180,7 +181,7 @@ $(document).ready(function() {
 	    		if(!error){
 	    			$(this).focus();
 	    		}
-	    		$(this).prev(".registration-caption").children(".reg-error").html('поле, обязательно к заполнению');
+	    		$(this).prev(".registration-caption").children(".reg-error").html('пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ');
 	    		error=true;
 	    	}
 		});
@@ -195,7 +196,7 @@ $(document).ready(function() {
 	    	$(	"input#company-pass," +
 	    		"input#company-pass-confirm").focus().prev(".registration-caption")
 	    									.children(".reg-error")
-	    									.html('пароли не совпадают');
+	    									.html('пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ');
 	    	$('input#company-pass').focus();
     		error=true;
 	    }
@@ -206,14 +207,14 @@ $(document).ready(function() {
 	    if (regEmail.test(email) == false) {  
 	    	$("input#company-email").focus().prev(".registration-caption")
     									.children(".reg-error")
-    									.html('некорректный email');
+    									.html('пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ email');
 	    	if(!error){
 	    		$("input#company-email").focus();
     		}
 	    	error=true; 
 	    }  
 	    if(!$("input#license-check").attr("checked")){
-	    	$("input#license-check").parent().children(".reg-error").html("ознакомьтесь с лицензионным соглашением");
+	    	$("input#license-check").parent().children(".reg-error").html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 	    	if(!error){
 	    		$("input#license-check").focus();
     		}
@@ -284,9 +285,9 @@ $(document).ready(function() {
 			}
 			else
 			{	
-				$("div#wrap .reg-error").html("Строки не совпадают!");
+				$("div#wrap .reg-error").html("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 		    	//alert("yo");
-				//$('#js-mail-result').html("Пожалуйста, проверьте, правильно ли введены символы с картинки?");
+				//$('#js-mail-result').html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ?");
         		//$('#js-mail-result').show();
 				//$("#after_submit").html('');
 				//$("#submit-button").after('<label class="error" id="after_submit">Error ! invalid captcha code .</label>');
@@ -306,7 +307,7 @@ $(document).ready(function() {
 	    		"input#company-email," +
 	    		"input#responsible-person").each(function(){
 	    	if($(this).val()==""){
-	    		$(this).prev(".registration-caption").children(".reg-error").html('поле, обязательно к заполнению');
+	    		$(this).prev(".registration-caption").children(".reg-error").html('пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ');
 	    		error=true;
 	    	}
 		});
@@ -321,7 +322,7 @@ $(document).ready(function() {
 	    	$(	"input#company-pass," +
 	    		"input#company-pass-confirm").focus().prev(".registration-caption")
 	    									.children(".reg-error")
-	    									.html('пароли не совпадают');
+	    									.html('пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ');
     		error=true;
 	    }
 	  */ 
@@ -331,11 +332,11 @@ $(document).ready(function() {
 	    if (regEmail.test(email) == false) {  
 	    	$("input#company-email").focus().prev(".registration-caption")
     									.children(".reg-error")
-    									.html('некорректный email');
+    									.html('пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ email');
 	    	error=true; 
 	    }  
 	    if(!$("input#license-check").attr("checked")){
-	    	$("input#license-check").parent().children(".reg-error").html("ознакомьтесь с лицензионным соглашением");
+	    	$("input#license-check").parent().children(".reg-error").html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 	    	error=true;
 	    }
 	    if(error){
@@ -423,17 +424,17 @@ $(document).ready(function() {
 		        		//window.location.href = window.location.href;
 		        		//alert("success");
 		        		//$('#form_link').hide();
-			        	//$('#js-mail-result').html("Спасибо, Ваше письмо успешно отправлено!");
+			        	//$('#js-mail-result').html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 			        	//$('#js-mail-result').show();
 		        	}
 		        	else {
 		        		$('#registration-bg').css('z-index',zI);
 		        		if(response.error=="Invalid data"){
-		        			$("#forgot-pass-messbox-center").children(".reg-error").html("Пользователь с таким email адресом не зарегистрирован.");
+		        			$("#forgot-pass-messbox-center").children(".reg-error").html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ email пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
 		        		}
 		        		
 		        		//alert("error");
-		        		//$('#js-mail-result').html("Ошибка!");
+		        		//$('#js-mail-result').html("пїЅпїЅпїЅпїЅпїЅпїЅ!");
 		        		//$('#js-mail-result').show();
 		        	}
 		        	$('body').css('cursor','default');
@@ -441,19 +442,19 @@ $(document).ready(function() {
 			});
 		
 	    }else{
-	    	$("#forgot-pass-messbox-center").children(".reg-error").html("Введите корректный email адрес!");
+	    	$("#forgot-pass-messbox-center").children(".reg-error").html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ email пїЅпїЅпїЅпїЅпїЅ!");
 	    }
 	    
 	});
 	
 	$('#company-forgot-pass').keydown(function(event){
-		if(event.keyCode==13){// нажата клавиша enter
+		if(event.keyCode==13){// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ enter
 			$("#forgot-pass-submit").trigger('click');
 		}
 	});
 	
 	$('body').keydown(function(event){
-		if(event.keyCode==27){// нажата клавиша Esc
+		if(event.keyCode==27){// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ Esc
 			//$("#forgot-pass-submit").trigger('click');
 			$('#registration-bg').css('display','none');
 			$('#forgot-pass-messbox').css('display','none');
@@ -474,7 +475,7 @@ $(document).ready(function() {
 	    var email=$("input#auth-login").val();
 	    var regEmail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 	    if (regEmail.test(email) == false) { 
-	    	$("#auth").children(".reg-error").html("Неккоректный email адрес!");
+	    	$("#auth").children(".reg-error").html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ email пїЅпїЅпїЅпїЅпїЅ!");
 	    	return false;
 	    }  
 	    var pass=$("input#auth-password").val();
@@ -491,15 +492,15 @@ $(document).ready(function() {
 	        		window.location.href = window.location.href;
 	        		//alert("success");
 	        		//$('#form_link').hide();
-		        	//$('#js-mail-result').html("Спасибо, Ваше письмо успешно отправлено!");
+		        	//$('#js-mail-result').html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 		        	//$('#js-mail-result').show();
 	        	}
 	        	else {
 	        		if(response.error=="User not found"){
-	        			$("#auth").children(".reg-error").html("Неверные данные!");
+	        			$("#auth").children(".reg-error").html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!");
 	        		}
 	        		//alert("error");
-	        		//$('#js-mail-result').html("Ошибка!");
+	        		//$('#js-mail-result').html("пїЅпїЅпїЅпїЅпїЅпїЅ!");
 	        		//$('#js-mail-result').show();
 	        	}
 	        }			
@@ -507,13 +508,13 @@ $(document).ready(function() {
 	});
 	
 	$('#auth-login').keydown(function(event){
-		if(event.keyCode==13){// нажата клавиша enter
+		if(event.keyCode==13){// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ enter
 			$("#auth-enter").trigger('click');
 		}
 	});
 	
 	$('#auth-password').keydown(function(event){
-		if(event.keyCode==13){// нажата клавиша enter
+		if(event.keyCode==13){// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ enter
 			$("#auth-enter").trigger('click');
 		}
 	});
@@ -556,31 +557,31 @@ $(document).ready(function() {
 		        		//window.location.href = window.location.href;
 		        		//alert("success");
 		        		//$('#form_link').hide();
-			        	//$('#js-mail-result').html("Спасибо, Ваше письмо успешно отправлено!");
+			        	//$('#js-mail-result').html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 			        	//$('#js-mail-result').show();
 		        	}
 		        	else {
 		        		
 		        		$('body').css('cursor','default');
 		        		if(response.error=="User not found"){
-		        			$("#auth").children(".reg-error").html("Пользователь с таким email адресом не зарегистрирован.");
+		        			$("#auth").children(".reg-error").html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ email пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
 		        		} else {
 		        			$("#auth").children(".reg-error").html(response.error);
 		        		}
 		        		//alert("error");
-		        		//$('#js-mail-result').html("Ошибка!");
+		        		//$('#js-mail-result').html("пїЅпїЅпїЅпїЅпїЅпїЅ!");
 		        		//$('#js-mail-result').show();
 		        	}
 		        }			
 			});
 		
 	    }else{
-	    	$("#auth").children(".reg-error").html("Не корректный email адрес!");
+	    	$("#auth").children(".reg-error").html("пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ email пїЅпїЅпїЅпїЅпїЅ!");
 	    }	
 	});
 	
 	$('#not-active-email').keydown(function(event){
-		if(event.keyCode==13){// нажата клавиша enter
+		if(event.keyCode==13){// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ enter
 			$("#not-active-submit").trigger('click');
 		}
 	});
@@ -593,12 +594,12 @@ $(document).ready(function() {
 		var error = false;
 		if (location == '') {
 			$('#js-object-location').focus();
-			$('#js-object-location').next().next(".reg-error").html('Поле обязательно к заполнению!');
+			$('#js-object-location').next().next(".reg-error").html('пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!');
 			error=true;
 		}
 		if (name == '') {
 			$('#js-object-name').focus();
-			$("#js-object-name").next().next(".reg-error").html('Поле обязательно к заполнению!');
+			$("#js-object-name").next().next(".reg-error").html('пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!');
 			error=true;
 		}
 		if(error){
@@ -644,7 +645,7 @@ $(document).ready(function() {
 	        		//window.location.href = window.location.href;
 	        		//alert("success");
 	        		//$('#form_link').hide();
-		        	//$('#js-mail-result').html("Спасибо, Ваше письмо успешно отправлено!");
+		        	//$('#js-mail-result').html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 		        	//$('#js-mail-result').show();
 	        	}else{
 	        		if(typeof(response.error) == 'object'){
@@ -686,12 +687,12 @@ $(document).ready(function() {
 		var error = false;
 		if (location == '') {
 			$('#js-object-location').focus();
-			$('#js-object-location').next().next(".reg-error").html('Поле обязательно к заполнению!');
+			$('#js-object-location').next().next(".reg-error").html('пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!');
 			error=true;
 		}
 		if (name == '') {
 			$('#js-object-name').focus();
-			$("#js-object-name").next().next(".reg-error").html('Поле обязательно к заполнению!');
+			$("#js-object-name").next().next(".reg-error").html('пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!');
 			error=true;
 		}
 		if(error){
@@ -736,7 +737,7 @@ $(document).ready(function() {
 	        		//window.location.href = window.location.href;
 	        		//alert("success");
 	        		//$('#form_link').hide();
-		        	//$('#js-mail-result').html("Спасибо, Ваше письмо успешно отправлено!");
+		        	//$('#js-mail-result').html("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 		        	//$('#js-mail-result').show();
 	        	}else{
 	        		if(typeof(response.error) == 'object'){
